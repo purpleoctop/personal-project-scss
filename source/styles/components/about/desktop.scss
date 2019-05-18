@@ -1,0 +1,55 @@
+.about{
+   
+.about-container{
+ 
+    
+    .desktop-text{
+      
+
+      
+
+        .text{
+           
+           .head{
+            transform: translateY(-88%);
+           }
+        }
+
+
+        .features{
+            display: flex;
+            flex-wrap:wrap;
+            width:100%;
+            justify-content: space-between;
+            
+
+            .feature{
+                display: flex;
+                justify-content: space-between;
+                width: 46%;
+                height: 78px;
+                border: 1px solid black;
+                margin-bottom: 46px;
+
+           
+
+           .feat{
+               display: flex;
+               flex-direction: column;
+               width: 185px;
+          
+           
+            p{
+              
+                line-height: 13px;
+               
+             
+
+            }
+        }
+
+        }
+    }
+}
+}
+}
