@@ -1,19 +1,35 @@
+.intro {
+    height: 596px;
 
-.intro{
-    height:596px;
-    .right{display:none;}
-    .left{display: none;}
-    .description{    
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .description {
         transform: translate(0%, -1%);
-     h1{word-spacing: -6px;
-        transform: translateX(-2%);}
-        h2{    transform: translate(-2%, -1%);
-            word-spacing: -2px;}
 
-        p{letter-spacing: -0.6px;
-            transform: translate(-2%, -7%);}
-    
-        .button{transform: translate(-9%, -19%);}
+        h1 {
+            word-spacing: -6px;
+            transform: translateX(-2%);
+        }
+
+        h2 {
+            transform: translate(-2%, -1%);
+            word-spacing: -2px;
+        }
+
+        p {
+            letter-spacing: -0.6px;
+            transform: translate(-2%, -7%);
+        }
+
+        .button {
+            transform: translate(-9%, -19%);
+        }
     }
 
 }

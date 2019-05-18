@@ -1,25 +1,37 @@
-.intro{
+.intro {
     height: 209.23px;
-    .right{display:none;}
-    .left{display: none;}
-    .description{   
+
+    .right {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .description {
         transform: translate(-7%, -8%);
-        h1{
+
+        h1 {
             font-size: 25px;
             line-height: 72px;
         }
 
-        h2{    font-size: 30px;
+        h2 {
+            font-size: 30px;
             line-height: 16px;
-            transform: translate(-1%,4%);
-            word-spacing: -4px;}
+            transform: translate(-1%, 4%);
+            word-spacing: -4px;
+        }
 
-        p{font-size: 7.5px;
+        p {
+            font-size: 7.5px;
             transform: translate(-1%, 21%);
             word-spacing: -0.9px;
-            margin-bottom: 10px;}
+            margin-bottom: 10px;
+        }
 
-        .button{
+        .button {
             width: 64px;
             height: 19px;
             font-size: 7px;
@@ -27,14 +39,14 @@
             transform: translate(-3%, 28%);
             text-align: center;
 
-            &:before{
+            &:before {
                 width: 57px;
                 height: 12px;
             }
-          
-             
-               
-              }
+
+
+
+        }
     }
 
 }
