@@ -1,15 +1,16 @@
+
 .about {
     display: flex;
-    width: 100%;
     justify-content: center;
+    width: 100%;
     height: 813px;
 
     .about-container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         width: 80%;
         height: 580px;
-        justify-content: space-between;
         margin-top: 116px;
 
         .about-header {
@@ -20,13 +21,13 @@
             height: 68px;
 
             .whoweare {
-                font-family: 'Raleway', 'Sans Serif';
-                font-size: 31px;
                 color: $color-2;
-                line-height: 34px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 31px;
                 font-weight: 800;
+                line-height: 34px;
                 text-transform: uppercase;
-                
+
                 span {
                     color: $color-3;
                 }
@@ -57,7 +58,6 @@
                 width: 40%;
                 height: 100%;
                 transform: translate(0%, -1%);
-               
             }
 
             .black-box {
@@ -73,13 +73,12 @@
                 transform: translate(-1%, -1%);
 
                 .head {
-                    font-family: 'Raleway';
-                    font-size: 31px;
-                    line-height: 19px;
-                    font-weight: 400;
-                    font-weight: 800;
-                    word-spacing: -4.9px;
                     transform: translate(0%, 16%);
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 31px;
+                    font-weight: 800;
+                    line-height: 19px;
+                    word-spacing: -4.9px;
                 }
 
                 .underline {
@@ -90,65 +89,62 @@
                 }
 
                 .paragraph {
-                    font-family: 'Open Sans';
+                    width: 99%;
+                    transform: translate(0%, -9.1%);
+                    color: $color-5;
+                    font-family: 'Open Sans', sans-serif;
                     font-size: 14px;
                     line-height: 27px;
-                    color: $color-5;
-                    transform: translate(0%, -9.1%);
-                    width: 99%;
                 }
 
                 .features {
                     display: flex;
                     flex-wrap: wrap;
-                    width: 100%;
                     justify-content: space-between;
-
-
+                    width: 100%;
+                  
                     .feature {
                         display: flex;
                         justify-content: space-between;
                         width: 46%;
                         height: 78px;
-
                         margin-bottom: 46px;
 
-
                         &:nth-child(3) {
-                            margin-bottom: 0px;
+                            margin-bottom: 0;
                         }
 
                         &:nth-child(4) {
-                            margin-bottom: 0px;
+                            margin-bottom: 0;
                         }
 
                         .elipse {
                             width: 63px;
                             height: 63px;
-                            background-color: $color-6;
                             border-radius: 50%;
+                            background-color: $color-6;
                         }
 
                         .settings {
-                            background-image: url('/images/about/settings.png');
+                            background-image: url(/images/about/settings.png);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
 
                         .location {
-                            background-image: url('/images/about/location.png');
+                            background-image: url(/images/about/location.png);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
 
                         .heart {
-                            background-image: url('/images/about/heart.png');
+                            background-image: url(/images/about/heart.png);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
 
                         .new {
-                            background-image: url('/images/about/new.png');
+                            background-image: url(/images/about/new.png);
                             background-repeat: no-repeat;
                             background-position: center;
                         }
@@ -159,26 +155,24 @@
                             width: 185px;
 
                             h1 {
-                                font-family: 'Raleway';
-                                font-size: 18px;
-                                line-height: 19px;
+                                transform: translate(8%, 0%);
                                 color: $color-2;
+                                font-family: 'Raleway', sans-serif;
+                                font-size: 18px;
                                 font-weight: 900;
+                                line-height: 19px;
                                 text-transform: uppercase;
                                 word-spacing: -5px;
-                                transform: translate(8%, 0%);
                             }
 
                             p {
-                                font-family: 'Open Sans';
+                                transform: translate(9%, 19%);
+                                color: $color-5;
+                                font-family: 'Open Sans', sans-serif;
                                 font-size: 13px;
                                 line-height: 24px;
-                                color: #6A6A6A;
-                                transform: translate(9%, 19%);
-
                             }
                         }
-
                     }
                 }
 
@@ -187,14 +181,9 @@
 
                     .feat-2 {
                         display: flex;
-
                     }
-
                 }
-
             }
-
-
         }
     }
 }

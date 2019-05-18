@@ -1,3 +1,4 @@
+
 .intro {
     height: 596px;
 
@@ -13,8 +14,8 @@
         transform: translate(0%, -1%);
 
         h1 {
-            word-spacing: -6px;
             transform: translateX(-2%);
+            word-spacing: -6px;
         }
 
         h2 {
@@ -23,13 +24,12 @@
         }
 
         p {
-            letter-spacing: -0.6px;
             transform: translate(-2%, -7%);
+            letter-spacing: -.6px;
         }
 
         .button {
             transform: translate(-9%, -19%);
         }
     }
-
 }

@@ -2,18 +2,14 @@
 
     .container {
         width: 93%;
-        ;
 
         .logo {
             margin-bottom: 21.5px;
+            font-size: 27px;
 
             img {
                 width: 20px;
             }
-
-
-            font-size: 27px;
-
         }
 
         nav {
@@ -23,9 +19,9 @@
         .burger {
             width: 48px;
             height: 31px;
-            margin-right: 20px;
             margin-top: 33px;
-
+            margin-right: 20px;
+        
             div {
                 width: 22px;
             }
@@ -35,6 +31,5 @@
                 height: 25px;
             }
         }
-
     }
 }

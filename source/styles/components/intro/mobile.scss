@@ -18,35 +18,31 @@
         }
 
         h2 {
+            transform: translate(-1%, 4%);
             font-size: 30px;
             line-height: 16px;
-            transform: translate(-1%, 4%);
             word-spacing: -4px;
         }
 
         p {
-            font-size: 7.5px;
-            transform: translate(-1%, 21%);
-            word-spacing: -0.9px;
             margin-bottom: 10px;
+            transform: translate(-1%, 21%);
+            font-size: 7.5px;
+            word-spacing: -.9px;
         }
 
         .button {
             width: 64px;
             height: 19px;
+            transform: translate(-3%, 28%);
             font-size: 7px;
             line-height: 13px;
-            transform: translate(-3%, 28%);
             text-align: center;
 
-            &:before {
+            &::before {
                 width: 57px;
                 height: 12px;
             }
-
-
-
         }
     }
-
 }

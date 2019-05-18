@@ -1,26 +1,24 @@
 .header {
-    width: 100%;
-    background: $color-2;
     display: flex;
     justify-content: center;
+    width: 100%;
+    background: $color-2;
 
     .container {
-        width: 1169px;
         display: flex;
         justify-content: space-between;
+        width: 1169px;
 
         .logo {
             margin-top: 30px;
             margin-bottom: 31.5px;
+            color: $color-1;
             font-family: 'Raleway', sans-serif;
             font-size: 36px;
-            line-height: 22px;
             font-weight: 100;
-            color: $color-1;
+            line-height: 22px;
             text-decoration: none;
             text-transform: capitalize;
-
-
         }
 
         nav {
@@ -29,66 +27,51 @@
             justify-content: space-around;
             margin-top: 6px;
 
-
             a {
+                margin-right: 40px;
+                color: $color-1;
                 font-family: 'Open Sans', sans-serif;
                 font-size: 14px;
                 line-height: 21.36px;
-                color: $color-1;
                 text-decoration: none;
                 text-transform: uppercase;
-                margin-right: 40px;
-
 
                 &:nth-child(8) {
-                    margin-right: 0px;
-
+                    margin-right: 0;
                 }
-
             }
-
         }
 
         .burger {
-            position: relative;
-            width: 54px;
-            height: 37px;
             display: flex;
+            position: relative;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            background-color: $color-3;
+            width: 54px;
+            height: 37px;
             margin-top: 38px;
             margin-right: -2px;
-
-
-
+            background-color: $color-3;
 
             div {
-                border: 1px solid $color-1;
                 width: 30px;
                 height: 2px;
                 margin-bottom: 2.8px;
+                border: 1px solid $color-1;
 
                 &:nth-child(3) {
-                    margin-bottom: 0px;
+                    margin-bottom: 0;
                 }
             }
 
             &::before {
-                content: "";
+                content: '';
+                position: absolute;
                 width: 51px;
                 height: 34px;
                 border: 1px solid $color-1;
-                position: absolute;
-
             }
-
-
         }
-
-
-
     }
-
 }
