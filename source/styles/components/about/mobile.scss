@@ -9,8 +9,18 @@
         .about-header {
 
             .whoweare {
-                transform: translate(1%);
-                word-spacing: -6px;
+                transform: translate(-4%, -101%);
+                font-size: 27px;
+                word-spacing: -2px;
+            }
+
+            .icon-under {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                width: 117px;
+                transform: translate(-6%, -150%);
             }
         }
 
@@ -23,20 +33,22 @@
 
             .black-box {
                 display: block;
-                width: 100%;
-                height: 90.5%;
-                transform: translate(-.2%, -44%);
+                width: 95%;
+                height: 27.5%;
+                transform: translate(-.2%, -151%);
             }
 
             .text {
                 display: flex;
                 flex-direction: column;
                 align-content: space-between;
-                width: 81%;
-                transform: translate(-.5%, -53.6%);
+                width: 94%;
+                height: 18%;
+                transform: translate(-.5%, -354.6%);
 
                 .head {
-                    font-size: 25px;
+                    transform: translate(0%, -106%);
+                    font-size: 17px;
                     line-height: 13px;
                 }
 
@@ -46,9 +58,13 @@
 
                 .paragraph {
                     width: 100%;
-                    transform: translate(0%, 66%);
+                    transform: translate(0%, 20%);
                     font-size: 13px;
                     line-height: 23px;
+
+                    span {
+                        display: none;
+                    }
                 }
 
                 .features {
@@ -59,7 +75,7 @@
                     display: flex;
                     flex-direction: column;
                     align-content: center;
-                    transform: translate(0%, 42%);
+                    transform: translate(0%, 20%);
 
                     .feat-2 {
                         margin-bottom: 20px;
@@ -75,7 +91,27 @@
                             font-family: 'Open Sans', sans-serif;
                             font-size: 13px;
                             line-height: 23px;
+
+                            span {
+                                display: none;
+                            }
                         }
+                    }
+
+                    .read-more {
+                        width: 138px;
+                        height: 44px;
+                        padding-top: 5px;
+                        transform: translate(-1%, 34%);
+                        background: $color-3;
+                        color: $color-1;
+                        font-family: 'Raleway', sans-serif;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 34px;
+                        text-align: center;
+                        text-decoration: none;
+                        text-transform: uppercase;
                     }
                 }
             }

@@ -36,6 +36,7 @@
         align-items: center;
         margin-right: -25px;
         margin-bottom: 19px;
+        transform: translate(2%, -3.3%);
 
         h1 {
             margin-bottom: -14px;
@@ -54,10 +55,12 @@
 
         p {
             margin-bottom: 40px;
+            transform: translate(0%, -.5px);
             color: $color-1;
             font-family: 'Raleway-light', sans-serif;
             font-size: 20px;
             line-height: 24px;
+            word-spacing: .2px;
         }
 
         .button {
